@@ -101,7 +101,7 @@ a.active::after {
 }
  
 .hero h1 {
-    color: var(--violet-douxj);
+    color: var(--violet-doux);
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1,2rem;
@@ -129,6 +129,95 @@ a.active::after {
 .hero a:hover {
     background-color: var(--violet-fonce);
     transform: translate(-3px);
+}
+
+.apropo {
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+}
+
+section h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 1.2rem auto;
+    border-radius: 2px;
+}
+
+.apropo p {
+    margin-bottom: 2rem;
+    color: var(--gris-tres-fonce);
+    font-size: 1.2rem;
+}
+
+.competences table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.competences table th, .competences table td {
+    padding: 15px;
+}
+
+.competences table thead {
+    background-color: var(--violet-doux);
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.competences table tbody td {
+    border-bottom: 1px solid var(--gris-clair);
+}
+.competences table tbody tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+.competences table tbody tr {
+    transition: background-color 0.3s ease;
+}
+.competences table tbody tr {
+    background-color: #f0f0f0;
+}
+
+footer {
+    margin-top: 3rem; 
+    background-color: var(--violet-doux);
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-bottom: center;
+}
+
+footer a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--orange-vif);
+    transform: translateY(-3px);
 }
 
 
